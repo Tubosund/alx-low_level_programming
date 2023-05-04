@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * clear_bit - sets value of a bit to an idex
