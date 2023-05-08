@@ -8,7 +8,7 @@
 
 /**
  * is_elf - Checks if a file is an ELF file.
- * @elf: A pointer to an array containing the ELF magic numbers.
+ * @elf: an array containing the ELF magic numbers.
  *
  * Description:  - exit code 98.
  */
@@ -299,3 +299,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	free(header);
 	close_elf(o);
 	return (0);
+}
