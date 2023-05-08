@@ -5,13 +5,12 @@
 #include "main.h"
 
 /**
- * read_textfile -  reads a text file and prints it the output
+ * read_textfile - reads a text file and prints it to the stdout
  * @filename: name of file to read
- * @letters: the number of letters it should read and print
+ * @letters: number of letters to read and print
  *
- * Return: always zero
+ * Return: 1 success 0 failure
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
