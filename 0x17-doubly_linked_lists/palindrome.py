@@ -9,3 +9,6 @@ for i in range(999, 99, -1):
         if ispalindrome(i * j):
             array.append(i * j)
 print(max(array))
+
+with open("102-result", "w") as file:
+    file.write(str(result))
